@@ -28,6 +28,8 @@ class Q1 {
             System.out.println(d.getString("firstName") + " " + d.get("lastName") + " works in " +
                     company.get("_id"));
         }
+
+        connection.close();
     }
 
 }
